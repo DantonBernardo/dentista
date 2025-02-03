@@ -1,24 +1,24 @@
 import './style.css';
 
-import streetUrl from '../../images/contact/street.png';
-import whatsapp from '../../images/contact/whatsapp.png';
-import instagram from '../../images/contact/instagram.png';
+import { GrStreetView } from "react-icons/gr";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Contact() {
   return (
     <div className="contact-container" id="Contact">
       <div className="info">
         <h2>Onde nos encontrar?</h2>
-        <div className="street">
-          <img src={streetUrl} alt="Icone rua"/>
+        <div>
+          <GrStreetView className='icon street'/>
           <span>Rua Aurora Cristalina, 2087, Bairro</span>
         </div>
-        <div className="whatsapp">
-          <img src={whatsapp} alt="Icone Whatsapp"/>
+        <div>
+          <FaWhatsapp className='icon whatsapp'/>
           <span> &#40;11&#41; 9 1234-5678</span>
         </div>
-        <div className="instagram">
-          <img src={instagram} alt="Icone Instagram"/>
+        <div>
+          <FaInstagram className='icon instagram'/>
           <span>@clinicadentista</span>
         </div>
       </div>

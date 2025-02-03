@@ -30,7 +30,7 @@ export default function Header() {
                 <button>Fale conosco</button>
               </div>
               <div className='whatsapp'>
-                <a href='#'>
+                <a href='https://www.instagram.com' target='_blank' rel='noreferrer'>
                   <img src={whatsappicon} alt='whatsapp'/>
                 </a>
               </div>
