@@ -1,0 +1,54 @@
+.header-container .logo img{
+  width: 80px;
+  height: auto;
+}
+
+.header-container .navbar ul{
+  gap: 20px;
+  padding: 0 25px;
+}
+
+.header-container .navbar li{
+  display: flex;
+  justify-content: center;
+}
+
+
+.header-container .navbar a{
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  transition: .5s;
+}
+
+.header-container .navbar a:hover{
+  color: var(--blue);
+  transition: .5s;
+}
+
+.header-container .button button{
+  background-color: var(--blue);
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  transition: .5s;
+}
+
+.header-container .button button:hover{
+  background-color: #064b66;
+  transition: .5s;
+}
+
+.header-container .whatsapp{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.header-container .whatsapp img{
+  width: 90px;
+  margin: 10px;
+}

@@ -1,0 +1,55 @@
+.feedback{
+  margin-top: 10px;
+}
+
+.feedback .feedback{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.feedback .title h2, h4{
+  display: flex;
+  justify-content: center;
+  color: #000;
+  text-align: center;
+}
+
+.feedback .title h4{
+  color: var(--orange)
+}
+
+.feedback .slider-container{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feedback .slick-slide {
+  transition: all 0.3s ease;
+  opacity: 0.5;
+  transform: scale(0.8);
+}
+
+.feedback .slick-slide img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.feedback .slick-prev:before,
+.feedback .slick-next:before{
+  color: #000;
+  font-size: 30px;
+}
+
+.feedback .slick-center {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 10; 
+}
