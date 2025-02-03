@@ -1,0 +1,117 @@
+.services{
+  padding: 25px 5rem 50px 5rem;
+}
+
+.services .title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services .title h2{
+  color: var(--blue);
+  font-size: 2.5rem;
+}
+
+.services .cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cardservices{
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 20%;
+}
+
+.cardservices:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cardservices img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.cardservices p{
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--blue);
+  margin-top: 10px;
+}
+
+.services .button{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.services-container .schedule{
+  display: flex;
+  padding: 40px;
+  background-color: var(--blue);
+  margin: 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.services-container .schedule span{
+  font-size: 20px;
+  color: #fff;
+}
+
+.services-container .button button{
+  background-color: var(--secundary-green);
+  padding: 10px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: .2s;
+  font-weight: 600;
+}
+
+.services-container .button button:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  background-color: var(--orange);
+  color: #000;
+  transition: .2s;
+}
+
+@media (max-width: 670px){
+  .services-container .schedule{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .services-container .schedule span{
+    display: flex;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1470px){
+  .cardservices{
+    width: 200px;
+  }
+}
+
+@media (max-width: 580px){
+  .cardservices{
+    width: 100%;
+  }
+  .services{
+    padding: 50px 2rem;
+  }
+}
