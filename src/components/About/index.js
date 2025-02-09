@@ -10,7 +10,7 @@ export default function About(){
       <div className='info'>
         <span>Transformando vidas através de sorrisos</span>
         <h2 className='slogan'>O sorriso que você merece</h2>
-        <p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt</p>
+        <p className='text'>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt</p>
         <div className='buttons'>
           <a href='https://www.instagram.com' target='_blank' rel='noreferrer'>
             <button className='schedule'>Agende sua consulta!</button>

@@ -29,11 +29,11 @@ export default function Header() {
               <div className='button'>
                 <button>Fale conosco</button>
               </div>
-              <div className='whatsapp'>
-                <a href='https://www.instagram.com' target='_blank' rel='noreferrer'>
-                  <img src={whatsappicon} alt='whatsapp'/>
-                </a>
-              </div>
+            </div>
+            <div className='whatsapp'>
+              <a href='https://www.instagram.com' target='_blank' rel='noreferrer'>
+                <img src={whatsappicon} alt='whatsapp'/>
+              </a>
             </div>
           </div>
         </nav>
